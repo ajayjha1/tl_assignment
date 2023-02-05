@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import CreateProfileNext from './components/CreateProfileNext';
 import ProfilePage from './components/ProfilePage';
 import ProfileHome from './components/ProfileHome';
+import BottomNavbar from './components/BottomNavbar';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='CreateProfileNext' element={<CreateProfileNext/>} />
       <Route path='ProfilePage' element={<ProfilePage/>} />
       <Route path='ProfileHome' element={<ProfileHome/>} />
+      <Route path='BottomNavbar' element={<BottomNavbar/>} />
     </Routes>
     
     </BrowserRouter>

@@ -75,7 +75,7 @@ export default function ProfileHome() {
             </div>
             <a>Price per Day</a><br></br>
             <a>800</a>
-            <div className='job-view-details'><Button variant='warning'>View Details</Button></div>
+            <div className='job-view-details'><Button className='btn-2' variant='warning'>View Details</Button></div>
         </div>
         <div>
            
@@ -96,7 +96,7 @@ export default function ProfileHome() {
             </div>
             <a>Price per Day</a><br></br>
             <a>800</a>
-            <div className='job-view-details'><Button variant='warning'>View Details</Button></div>
+            <div className='job-view-details'><Button className='btn-2' variant='warning'>View Details</Button></div>
         </div>
         <div>
 
@@ -119,7 +119,7 @@ export default function ProfileHome() {
             </div>
             <a>Price per Day</a><br></br>
             <a>800</a>
-            <div className='job-view-details'><Button variant='warning'>View Details</Button></div>
+            <div className='job-view-details'><Button className='btn-2' variant='warning'>View Details</Button></div>
         </div>
         <div>
         </div>
