@@ -6,6 +6,7 @@ import {Row, Col} from 'react-bootstrap';
 import HeartImage from '../images/heart.png'
 
 import './ProfileHome.css';
+import BottomNavbar from './BottomNavbar';
 export default function ProfileHome() {
   return (
     <div>
@@ -126,7 +127,8 @@ export default function ProfileHome() {
         </div>
         </div>
         </div>
-        <div className='jobs-section'>&nbsp;</div>
+        {/* <div className='jobs-section'>&nbsp;</div> */}
+        <BottomNavbar/>
     </div>
   )
 }
