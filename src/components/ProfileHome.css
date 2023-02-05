@@ -1,0 +1,127 @@
+.profile-details{
+    display: flex;
+    padding-top: 3%;
+   
+}
+
+.details-section{
+    background-color: #23272C;
+    border: 0px 0px 10px 10px;
+}
+
+.location-block{
+    display: flex;
+}
+
+.jobs-section{
+    height: 100%;
+    background-color: white;
+}
+
+/* .location-icon-block{
+   
+} */
+.location-text-block{
+    color: white;
+    size: 18px;
+}
+
+.profile-name{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-details-text{
+    padding-left: 1%;
+}
+
+.account-status{
+   
+    color:black;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.account-status-parent{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.account-status-column{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.child-earning-feedback{
+ height: 30px;
+ width: 40%;
+ background-color: white;
+ text-align: center;
+ border-radius: 10px;
+}
+.earning-feedback-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-component{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.job-text{
+    size: 16px;
+    color: grey;
+}
+
+.job-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    border:1px solid #DAB46D;
+    border-radius: 10px;
+    height: 130px;
+}
+
+.job-div-left{
+   
+}
+
+.job-div-right{
+    padding-right: 2%;
+}
+
+.job-right-div-first{
+    justify-content: space-around;
+}
+.job-view-details{
+   height: 1vh;
+   width: 10vh;
+}
+
+.btn{
+        background-color: #FFA610;
+        color: black;
+        font-size: 0.5em;
+        font-weight: 600;
+        position: relative;
+        outline: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        height: 8px;
+        width: 80px;
+}
+
+.first-text{
+    size: 18px;
+    color: black;
+    font-weight: bold;
+}
